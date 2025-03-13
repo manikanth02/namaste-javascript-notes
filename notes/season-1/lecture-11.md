@@ -46,7 +46,11 @@
         
         * To avoid this, we can use **let** instead of **var** as let has Block scope. For each iteration, the i is a new variable altogether(new copy of i). Everytime setTimeout is run, the inside function forms closure with new variable i
 
+
     * But what if interviewer ask us to implement using **var**?
+
+
+Here in setTimeout function,each function get reference of i = 1,2,3,4,5 and so on
  
         ```js
         function x() {
